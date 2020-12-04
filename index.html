@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>EJERCICIOS FORMULARIOS </h2>
+
+<form action="/action_page.php">
+  <label for="fname">Nombre(s):</label><br>
+  <input type="text" id="fname" name="fname" value="Italia"><br>
+  <label for="lname">Apellido paterno:</label><br>
+  <input type="text" id="lname" name="lname" value="Garcia"><br><br>
+  <label for="lname">Apellido materno:</label><br>
+  <input type="text" id="lname" name="lname" value="Sanchez"><br><br>
+  <input type="submit" value="Enviar"><br><br>
+
+</form> 
+
+<label for="cars">¿Te gusta leer?:</label>
+  <select id="lectura" name="lectura">
+    <option value="volvo">Sí</option>
+    <option value="saab">No</option>
+    <option value="fiat">A veces</option>
+  </select><br><br>
+ 
+
+<font color="purple" >Selecciona un género literario de interes</font><br>
+  <input type="radio" id="genero1" name="gender" value="epico">
+  <label for="male">Épico</label><br>
+  <input type="radio" id="genero2" name="gender" value="lirico">
+  <label for="female">Lírico</label><br>
+  <input type="radio" id="genero3" name="gender" value="narrativo">
+  <label for="female">Narrativo</label><br>
+  <input type="radio" id="genero4" name="gender" value="didactico">
+  <label for="female">Didáctico</label><br>
+  <input type="radio" id="genero5" name="gender" value="dramatico">
+  <label for="other">Drámatico</label><br><br>
+ 
+ 
+
+ <form action="/action_page.php">
+  <font color="purple" >Elige las razones por las que te gusta leer</font><br>
+  <input type="checkbox" id="razon1" name="vehicle1" value="informarse">
+  <label for="vehicle1"> Informarse</label><br>
+  <input type="checkbox" id="razon2" name="vehicle2" value="curiosidad">
+  <label for="vehicle2"> Curiosidad</label><br>
+  <input type="checkbox" id="razon3" name="vehicle2" value="pasatiempo">
+  <label for="vehicle2"> Pasatiempo</label><br>
+  <input type="checkbox" id="razon4" name="vehicle2" value="obligación">
+  <label for="vehicle2"> Obligación</label><br>
+  <input type="checkbox" id="razon5" name="vehicle3" value="inspiración">
+  <label for="vehicle3"> Inspiración</label><br><br>
+  
+</form> 
+
+<p><font color="purple" >Escribe los libros favoritos de acuerdo al género elegido</font></p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">  </textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+
+
+<form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
+
+  <p>
+    Sube un archivo:<br><br>
+  
+
+    <input type="file" name="archivosubido">
+
+    <input type="submit" value="Enviar datos">
+  </p>
+
+</form>
+
+
+</body>
+</html>
